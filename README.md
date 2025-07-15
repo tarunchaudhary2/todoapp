@@ -29,4 +29,4 @@ Let me know if you'd like help modifying your `Dockerfile.txt` or building out t
 
 ##
 ---
-Let me know if your To-Do app includes a backend (e.g., Express, MongoDB), or if you'd like to include environment variable handling, volume mounts, or SSL setup in Azure.
+create a pull request or share your repository URL if your To-Do app includes a backend (e.g., Express, MongoDB), or if you'd like to include environment variable handling, volume mounts, or SSL setup in Azure.
