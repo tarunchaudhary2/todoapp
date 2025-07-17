@@ -12,6 +12,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
+  
   dockerRegistryServiceConnection: '20000000-0000-0000-0000-000000000000'
   imageRepository: 'container_name'
   containerRegistry: 'registry_name'
