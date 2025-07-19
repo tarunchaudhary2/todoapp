@@ -2,7 +2,7 @@ pipeline{
     agent any
 
     environment {
-        IMAGE_NAME = "todo-app"
+        IMAGE_NAME = "todo-app"                //app_name
         CONTAINER_NAME = "todo-app-conatiner"
     }
     triggers{
