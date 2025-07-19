@@ -45,7 +45,7 @@ pipeline{
         stage('run container'){
             steps{
                 script{
-                    sh "docekr run -d --name $CONTAINER_NAME -p 80:80 $IMAGE_NAME"
+                    sh "docker run -d --name $CONTAINER_NAME -p 80:80 $IMAGE_NAME"
                 }
             }
         }
