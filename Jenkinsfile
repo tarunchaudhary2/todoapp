@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    agent any                   //docker file should be in jenkins workspace directory
 
     environment {
         IMAGE_NAME = "todo-app"                //app_name
