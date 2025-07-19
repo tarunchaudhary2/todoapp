@@ -21,7 +21,7 @@ pipeline{
         stage('remove image'){
             steps{
                 script{
-                    sh "docker rmi $IMAGE_NAME"
+                    sh "docker rmi $IMAGE_NAME || true"
                 }
             }
         }
@@ -29,8 +29,8 @@ pipeline{
             steps{
                 script{
                     sh """
-                        docker stop $CONTAINER_NAME
-                        docekr rm $CONTAINER_NAME
+                        docker stop $CONTAINER_NAME || true
+                        docekr rm $CONTAINER_NAME || true
                     """
                 }
             }
