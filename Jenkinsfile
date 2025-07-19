@@ -13,7 +13,7 @@ pipeline{
         stage('clone Git repository '){
             steps{
                 script{
-                    git 'https://github.com/tarunchaudhary2/todoapp.git'
+                    git 'https://github.com/tarunchaudhary2/todoapp.git'        //repo url
                 }
             }
         }
