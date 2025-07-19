@@ -3,7 +3,7 @@ pipeline{
 
     environment {
         IMAGE_NAME = "todo-app"                //app_name
-        CONTAINER_NAME = "todo-app-conatiner"
+        CONTAINER_NAME = "todo-app-conatiner"    //container_name
     }
     triggers{
         githubpush()
