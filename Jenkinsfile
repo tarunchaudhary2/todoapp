@@ -6,7 +6,7 @@ pipeline{
         CONTAINER_NAME = "todo-app-conatiner"    //container_name
     }
     triggers{
-        githubpush()
+        githubPush()
     }
 
     stages{
