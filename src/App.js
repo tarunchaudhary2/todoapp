@@ -87,7 +87,7 @@ class App extends Component {
                         fontWeight: "bolder",
                     }}
                 >
-                    TODO LIST BY TARUN AT AWS DOCKER CONTAINER
+                    Todo List
                 </Row>
   
                 <hr />
